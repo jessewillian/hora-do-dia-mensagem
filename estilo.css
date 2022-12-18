@@ -1,0 +1,58 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --padding: 15px;
+    --text-shadow: 1px 1px 2px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.configs {
+    font: normal 15pt Arial;
+    background-color: #221c5b;
+    color: var(--color-white);
+}
+
+.main-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: var(--text-shadow) var(--color-black);
+}
+
+.main-section {
+    width: 500px;
+    color: var(--color-black);
+    margin: auto;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    padding: var(--padding);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.photo-div {
+    padding: var(--padding);
+    text-align: center;
+}
+
+.photo-div .photo {
+    border-radius: 50%;
+}
+
+.mensagem,
+.horario-dia {
+    padding: 7.5px;
+    text-align: center;
+}
+
+
+
+.main-footer {
+    text-align: center;
+    padding: var(--padding);
+    text-shadow: var(--text-shadow) var(--color-black);
+}
